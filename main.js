@@ -115,7 +115,7 @@ function Enemy() {
     // console.log(bullets);
   };
   this.fire = function () {
-    this.y += 3;
+    this.y += 4;
     if (this.y >= canvas.height - 64) {
       gameOver = true;
       console.log("gameOver");
