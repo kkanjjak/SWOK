@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "PyeongChangPeace-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  width: 90vw;
+  position: absolute;
+  background-color: rgb(24, 22, 22);
+}
+h1 {
+  font-size: 30px;
+  color: white;
+  font-family: "PyeongChangPeace-Bold";
+  margin: 0;
+
+  text-align: center;
+}
+
+canvas {
+  position: relative;
+  left: 550px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  border: 10px solid rgb(95, 80, 80);
+}
